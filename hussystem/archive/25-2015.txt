@@ -1,7 +1,0 @@
-<div class='task_done_record'>Nikolai Ommundsen: <span class='not-done'>Ikke utført</span>&nbsp;<span class='task'>Gulv og vaskerom</span></div>
-<div class='task_done_record'>Martin R&oslash;nningen: <span class='not-done'>Ikke utført</span>&nbsp;<span class='task'>Kj&oslash;kken</span></div>
-<div class='task_done_record'>Sander M&aelig;hlum: <span class='not-done'>Ikke utført</span>&nbsp;<span class='task'>Bad og dusj</span></div>
-<div class='task_done_record'>Martin Rosenlund: <span class='not-done'>Ikke utført</span>&nbsp;<span class='task'>Rydding, st&oslash;vt&oslash;rk & vasking samt toalett</span></div>
-<div class='task_done_record'>Harald Lundberg: <span class='not-done'>Ikke utført</span>&nbsp;<span class='task'>Uteomr&aring;de / hage*</span></div>
-
-POS: 4
