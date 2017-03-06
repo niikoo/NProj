@@ -1,0 +1,6 @@
+<div class='task_done_record'>Nikolai Ommundsen: <span class='not-done'>Ikke utført</span>&nbsp;<span class='task'>Gulv og vaskerom</span></div>
+<div class='task_done_record'>Sander Mæhlum: <span class='not-done'>Ikke utført</span>&nbsp;<span class='task'>Kj&oslash;kken</span></div>
+<div class='task_done_record'>Nicholai Henriksen: <span class='not-done'>Ikke utført</span>&nbsp;<span class='task'>Bad og dusj</span></div>
+<div class='task_done_record'>Harald Lundberg: <span class='not-done'>Ikke utført</span>&nbsp;<span class='task'>Gulv og vaskerom</span></div>
+
+POS: 0

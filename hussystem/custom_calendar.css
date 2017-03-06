@@ -1,0 +1,27 @@
+#dateMenuArrow1,#calendarTitle,#agenda-underflow-bottom1,#agenda-underflow-top1 {
+	display:none;
+}
+.agenda .date-label {
+	background-color:#EEE !important;
+	font-size:12pt;
+	color:#C90;
+}
+.view-cap, .view-container-border {
+	background-color:#999 !important;
+}
+
+.event {
+	background-color:#DDD;
+	color:#111;
+	padding:5px;
+	text-shadow:none !important;
+	border-bottom:#111 2px solid;
+	font-size:14pt;
+}
+
+.first-event {
+	font-weight:bold;
+}
+.dp-cur, .chip dt, .te, .te-t, .te-rev-s, .rb-n, .rb-i, .agenda, .event-title{
+white-space:normal !important;
+}
