@@ -1,0 +1,1 @@
+Only parts of my Lotus Notes connector projects. Please contact me for more info.

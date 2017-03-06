@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+  "name": "NEC Projector Controller",
+  "description": "By niikoo - BETA VERSION",
+  "version": "0.90",
+  "browser_action": {
+    "default_icon": "image/icon_32.png",
+    "default_popup": "html/popup.html"
+  },
+  "permissions": [
+    "history",
+	  "tabs",
+	  "<all_urls>",
+    "notifications",
+    "activeTab",
+    "alarms",
+    "storage",
+    "power"
+  ],
+  "background": {
+    "scripts": ["lib/jquery-2.1.4.min.js","js/background.js"],
+    "persisent": true
+  },
+  "icons": {
+    "16": "image/icon_16.png",
+    "32": "image/icon_32.png",
+    "64": "image/icon_64.png",
+    "128": "image/icon_128.png"
+  },
+  "commands": {
+    "toggle-mute": {
+      "suggested_key": {
+        "default": "Alt+M"
+      },
+      "description": "Vis/skjul svart skjerm"
+    },
+    "toggle-freeze": {
+      "suggested_key": {
+        "default": "Alt+N"
+      },
+      "description": "Frys/tin skjerm"
+    }
+  },
+  "offline_enabled": true
+}

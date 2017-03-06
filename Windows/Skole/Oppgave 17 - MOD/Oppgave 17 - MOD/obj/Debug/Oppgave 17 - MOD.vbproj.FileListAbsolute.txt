@@ -1,0 +1,20 @@
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Oppgave 17 - MOD\bin\Debug\Oppgave 17 - MOD.exe
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Oppgave 17 - MOD\bin\Debug\Oppgave 17 - MOD.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Oppgave 17 - MOD\bin\Debug\Oppgave 17 - MOD.xml
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Oppgave 17 - MOD\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Oppgave 17 - MOD\obj\Debug\Oppgave_17___MOD.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Oppgave 17 - MOD\obj\Debug\Oppgave_17___MOD.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Oppgave 17 - MOD\obj\Debug\Oppgave 17 - MOD.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Oppgave 17 - MOD\obj\Debug\Oppgave 17 - MOD.exe
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Oppgave 17 - MOD\obj\Debug\Oppgave 17 - MOD.xml
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Oppgave 17 - MOD\obj\Debug\Oppgave 17 - MOD.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 17 - MOD\Oppgave 17 - MOD\obj\Debug\Oppgave 17 - MOD.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 17 - MOD\Oppgave 17 - MOD\obj\Debug\Oppgave 17 - MOD.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 17 - MOD\Oppgave 17 - MOD\obj\Debug\Oppgave 17 - MOD.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 17 - MOD\Oppgave 17 - MOD\bin\Debug\Oppgave 17 - MOD.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 17 - MOD\Oppgave 17 - MOD\bin\Debug\Oppgave 17 - MOD.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 17 - MOD\Oppgave 17 - MOD\bin\Debug\Oppgave 17 - MOD.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 17 - MOD\Oppgave 17 - MOD\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 17 - MOD\Oppgave 17 - MOD\obj\Debug\Oppgave_17___MOD.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 17 - MOD\Oppgave 17 - MOD\obj\Debug\Oppgave_17___MOD.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 17 - MOD\Oppgave 17 - MOD\obj\Debug\Oppgave 17 - MOD.vbproj.GenerateResource.Cache

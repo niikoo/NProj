@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+	<title>CodePress - Real Time Syntax Highlighting Editor written in JavaScript</title>
+
+	<style>
+	body {color:#000;background-color:white;font:15px georgia, "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif; letter-spacing:0.01em;margin:15px;}
+	p {margin:0 0 15px 0;}
+	a,a:visited {color:#7f0055;}
+	select {background:#ffffe1;}
+	button {margin-top:5px;}
+	h1 {color:#7f0055;margin:0;padding:0;font-size:42px;font-weight:normal;}
+	h1 a {text-decoration:none;}
+	h2 {margin:0;}
+	h2 a {text-decoration:none;font-weight:normal;font-size:22px;color:black !important;}
+
+	h3 {font-size:20px;font-weight:normal;padding:0;margin:25px 0 5px 0;color:#7f0055;font-weight:bold;border-bottom:2px dotted #d8d8d8;}
+	code {color:#0080c0;font-size:13px;font-weight:bold;}
+	#logo {text-align:center;background-color:#d6d6d6;padding:10px;-moz-border-radius:5px;border:1px solid silver;}
+	#container {width:700px;margin:20px auto;padding:25px;border:3px solid #d9d9d9;-moz-border-radius:10px;background:#f8f8f8;}
+	#languages {margin:5px 0;}
+	ol {padding:0 0 15px 30px;margin:0;}
+	ol li {margin:5px 0 10px 0;}
+	#default {font-weight:bold;color:red;}
+	#codepress-load-code, #load-this {display:none;}
+	#myTextAreaId {display:none;}
+	
+	#menu { width:100%;background:#7f0055;-moz-border-radius:4px;}
+	#menu a {font:bold 17px georgia;color:white;padding:4px;display:block;border-left:1px solid white;text-align:center;text-decoration:none;}
+	#menu a:hover {background:#b9669e;} 
+
+	code#codepress, code.codepress { visibility:hidden; }
+	</style>
+	
+	<script>
+	last = null;
+	function edit(file,obj) {
+		if(last == null) last = document.getElementById('default');
+		last.style.fontWeight = 'normal';
+		last.style.color = 'black';
+		obj.style.fontWeight = 'bold';
+		obj.style.color = 'red';
+		last = obj;
+		CodePress.edit(file)
+	}
+	</script>
+
+</head>
+
+<body>
+<div id="container">
+
+
+<div id="logo">
+	<h1><a href="http://codepress.fermads.net/">CodePress</a></h1>
+	<h2><a href="http://codepress.fermads.net/">Online Real Time Syntax Highlighting Editor</a></h2>
+</div>
+
+<br />
+
+<table cellpadding="0" cellspacing="0" id="menu">
+<tr>
+	<td><a href="http://codepress.fermads.net/index.php" id="home">Home/Download</a></td>
+	<td><a href="http://codepress.fermads.net/menu_how_to_help.php" id="howtohelp">To do/How to help</a></td>
+	<td><a href="http://sourceforge.net/forum/?group_id=186981" class="forum">Forum</a></td>	
+	<td><a href="http://codepress.fermads.net/menu_how_to_use_it.php" id="howtouseit">How to use it</a></td>
+
+	<td><a href="http://codepress.fermads.net/menu_about.php" id="about">&nbsp;About&nbsp;</a></td>
+</tr>
+</table>
+
+<div id="main">
+	<h4>
+	CodePress is web-based source code editor with syntax highlighting written in JavaScript that colors text in real time while it's being typed in the browser.
+	</h4>
+	
+	<p>
+	It's a lightweight, extensible and simple (compared to similar web-based code editors) script with very good performance with large files (tested with up to 3000 lines).
+	</p>
+	
+	<p>Go to <strong><a href="http://codepress.fermads.net/">http://codepress.fermads.net/</a></strong> for updates.</p>
+
+<h3><a name="demo"></a>Demo</h3>
+<div id="languages">
+	<em>choose example in:</em> 
+	<button onclick="edit('codepress.php',this)" id="default">PHP</button> 
+	<button onclick="edit('codepress.js',this)">JavaScript</button> 
+	<button onclick="edit('testdir/FileManager.java',this)">Java</button>
+	<button onclick="edit('example.pl',this)">Perl</button>
+	<button onclick="edit('example.sql',this)">SQL</button>	
+	<button onclick="edit('index.html',this)">HTML</button> 
+	<button onclick="edit('styles.css',this)">CSS</button> 	
+	<button onclick="edit('loremipsum.txt',this)">plain text</button><br />
+</div>
+
+<code id="myTextAreaId" class="codepress">/* CodePress example */
+for (i=0;i<10;i++) {
+	alert(10);
+	document.write("Test");
+}
+</code>
+
+
+<!-- [options here] class below = any or all of the following: hideMenu, hideFileName, hideLanguage, hideOptions -->
+<code id="codepress" title="codepress.php" class="cp [options here]"></code>
+<script src="codepress.js" type="text/javascript" id="cp-script" lang="en-us"></script>
+<p style="margin-top:10px">
+<button onclick="alert(CodePress.getCode())"><strong>get code from editor</strong></button> :: Example getting (<code>alert()</code>) original code from CodePress window<br />
+<button onclick="CodePress.edit('FromHiddenArea.js','myTextAreaId')"><strong>set code to editor</strong></button> :: Example setting code from a hidden textarea to CodePress window
+</p>
+
+<h3>How to use it</h3>
+
+<p>
+Considering you already have a PHP capable webserver (http://yourserver/)</p>
+<ol>
+<li>Uncompress CodePress under the root directory of your webserver so it can be accessed through <strong>http://yourserver/codepress/</strong></li>
+<li>Edit <strong>codepress/modules/codepress.php</strong> and change <code>$path['files'] = "[directory]";</code> to the root directory of the files you want to edit.
+
+	Examples:<br><br>
+	<p>
+	<code>$path['files'] = "/files";</code> will open files from <strong>[yourserver root path]/files/</strong><br>
+	<code>$path['files'] = "files";</code> will open files from <strong>[yourserver root path]/codepress/files/</strong>
+	</p>
+</li>
+<li>Insert CodePress script at the bottom of your page, above the <code>&lt;/body&gt;</code> tag.<br><br>
+
+<p>
+<code>&lt;script src="codepress.js" type="text/javascript" id="cp-script" lang="en-us"&gt; &lt;/script&gt;</code>
+</p>
+<p>
+The "en-us" part can be changed to a language available on <strong>codepress/content/</strong>
+</p>
+</li>
+
+<li>Add the <code>&lt;code&gt;</code> tag to the place on your page you want CodePress to appear. There are several ways to do that. See examples below:<br><br>
+
+<!-- [options here] class below = any or all of the following: hideMenu, hideFileName, hideLanguage, hideOptions -->
+<strong>Method 1: Load code from server (on page load)</strong><br />
+<p id="serveronload">
+<code>&lt;code id="codepress" title="dir1/test.php" class="cp hideFileName"&gt;&lt;/code&gt;</code><br>
+The above will open dir1/test.php from server not displaying its filename on status bar/menu<br>
+</p>
+
+<strong>Method 2: <a href="javascript:versionExpand('pageonload')">Load code from same page (on page load)</a></strong>&darr;<br />
+<p class="ns" id="pageonload">
+<code>&lt;code id="codepress" title="test.js" class="cp hideMenu"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;document.write("test");<br>
+&lt;/code&gt;</code><br>
+The above will open a new file named test.js getting its content from inside <code>&lt;code&gt;</code> tag and not showing the status bar/menu<br>
+</p>
+
+<strong>Method 3: <a href="javascript:versionExpand('serverondemand')">Load code from server (on demand)</a></strong>&darr;<br />
+<p class="ns" id="serverondemand">
+Call <code>CodePress.edit('[filename]')</code> somewhere in your page. Example:<br>
+<code>&lt;button onclick="CodePress.edit('myfile.js')&gt;Edit&lt;/button&gt;</code>
+</p>
+
+<strong>Method 4: <a href="javascript:versionExpand('pageondemand')">Load code from same page (on demand)</a></strong>&darr;<br />
+<p class="ns" id="pageondemand">
+Call <code>CodePress.edit('[filename]','[id of the element containing the code]')</code> somewhere in your page. Example:<br>
+<code>&lt;button onclick="CodePress.edit('myfile.js','hiddencode')&gt;Edit&lt;/button&gt;</code>
+</p>
+</ol>
+
+<strong>Things to consider:</strong>
+<ul>
+<li>Options (classes) allowed to <code>class="cp ..."</code> are <strong>hideMenu</strong>, <strong>hideFileName</strong>, <strong>hideLanguage</strong>, <strong>hideOptions</strong>. The "<strong>cp</strong>" class is mandatory.</li>
+<li>If file does not exist on server, CodePress will open a new file with the name specified</li>
+<li>You can change CodePress window width/height and other attributes overwriting the css properties. Example: <code>code.cp { width:500px;height:800px }</code></li>
+</ul>
+</li>
+
+
+<br />
+
+<strong>Getting code from CodePress window</strong><br />
+<p>
+Considering you have done the steps above and have CodePress up and running.
+</p>
+
+<ol>
+	<li>Just call CodePress.getCode()<br>
+	Example 1: <code>alert(CodePress.getCode())</code><br>
+	Example 2: <code>var myCode = CodePress.getCode()</code><br>
+	Example 3: <code>document.getElementById('MyTextArea').value = CodePress.getCode()</code></li>	
+	</li>
+</ol>
+You may want to use CodePress.getCode() to get the content code from CodePress window and save it to your server since CodePress only open/edit files and do not save them.
+
+<h3>License</h3>
+<p>
+	CodePress is distributed under the <a href="http://www.opensource.org/licenses/lgpl-license.php">LGPL</a>. If your software is <a href="http://www.gnu.org/philosophy/license-list.html#GPLCompatibleLicenses">compatible</a> with this licence or it is under <a href="http://creativecommons.org/">Creative Commons</a>, you can use it as you want. Just keep the credits somewhere around.
+</p>
+<p>
+Thanks.
+</p>
+
+<a href="mailto:fermads@gmail.com">Fernando M.A.d.S.</a>
+
+
+</div><!--/container-->
+
+
+</body>
+</html>

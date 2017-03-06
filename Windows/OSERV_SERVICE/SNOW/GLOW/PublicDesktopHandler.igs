@@ -1,0 +1,8 @@
+[LOGON]{VBS}(SERVICE)
+on error resume next
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+If Not objFSO.FolderExists("C:\Public Desktop Archive\") Then
+	objFSO.CreateFolder("C:\Public Desktop Archive\")
+End If
+objFSO.CopyFile "C:\users\public\desktop\*" , "C:\Public Desktop Archive\" , True
+objFSO.DeleteFile "C:\users\public\desktop\*"

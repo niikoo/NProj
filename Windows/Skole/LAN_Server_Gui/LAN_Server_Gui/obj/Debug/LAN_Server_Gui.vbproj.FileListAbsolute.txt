@@ -1,0 +1,39 @@
+C:\Users\niikoo\AppData\Local\Temporary Projects\LAN_Server_Gui\bin\Debug\LAN_Server_Gui.exe
+C:\Users\niikoo\AppData\Local\Temporary Projects\LAN_Server_Gui\bin\Debug\LAN_Server_Gui.pdb
+C:\Users\niikoo\AppData\Local\Temporary Projects\LAN_Server_Gui\bin\Debug\LAN_Server_Gui.xml
+C:\Users\niikoo\AppData\Local\Temporary Projects\LAN_Server_Gui\bin\Debug\UNOLibs.Net.dll
+C:\Users\niikoo\AppData\Local\Temporary Projects\LAN_Server_Gui\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\niikoo\AppData\Local\Temporary Projects\LAN_Server_Gui\obj\Debug\LAN_Server_Gui.Form1.resources
+C:\Users\niikoo\AppData\Local\Temporary Projects\LAN_Server_Gui\obj\Debug\LAN_Server_Gui.Resources.resources
+C:\Users\niikoo\AppData\Local\Temporary Projects\LAN_Server_Gui\obj\Debug\LAN_Server_Gui.vbproj.GenerateResource.Cache
+C:\Users\niikoo\AppData\Local\Temporary Projects\LAN_Server_Gui\obj\Debug\LAN_Server_Gui.exe
+C:\Users\niikoo\AppData\Local\Temporary Projects\LAN_Server_Gui\obj\Debug\LAN_Server_Gui.xml
+C:\Users\niikoo\AppData\Local\Temporary Projects\LAN_Server_Gui\obj\Debug\LAN_Server_Gui.pdb
+C:\Users\niikoo\Documents\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\bin\Debug\UNOLibs.Net.dll
+C:\Users\niikoo\Documents\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\niikoo\Documents\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\LAN_Server_Gui.vbproj.GenerateResource.Cache
+C:\Users\niikoo\Documents\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\bin\Debug\UNOLibs.Net.pdb
+C:\Users\niikoo\Documents\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\bin\Debug\UNOLibs.Net.xml
+C:\Users\niikoo\Documents\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\bin\Debug\LAN Messenger.exe
+C:\Users\niikoo\Documents\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\bin\Debug\LAN Messenger.pdb
+C:\Users\niikoo\Documents\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\bin\Debug\LAN Messenger.xml
+C:\Users\niikoo\Documents\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\LAN_Messenger.Form1.resources
+C:\Users\niikoo\Documents\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\LAN_Messenger.Resources.resources
+C:\Users\niikoo\Documents\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\LAN_Messenger.SplashScreen1.resources
+C:\Users\niikoo\Documents\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\LAN Messenger.exe
+C:\Users\niikoo\Documents\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\LAN Messenger.xml
+C:\Users\niikoo\Documents\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\LAN Messenger.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\LAN Messenger.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\LAN Messenger.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\LAN Messenger.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\bin\Debug\LAN Messenger.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\bin\Debug\LAN Messenger.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\bin\Debug\LAN Messenger.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\bin\Debug\UNOLibs.Net.dll
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\bin\Debug\UNOLibs.Net.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\bin\Debug\UNOLibs.Net.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\LAN_Messenger.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\LAN_Messenger.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\LAN_Messenger.SplashScreen1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server_Gui\LAN_Server_Gui\obj\Debug\LAN_Server_Gui.vbproj.GenerateResource.Cache

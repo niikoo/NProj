@@ -1,0 +1,74 @@
+v0.65
+	Full Microsoft Internet Explorer Support
+	Full Apple Safari Support
+	Full Opera Support
+
+v0.60
+	(( ONLY FIREFOX SUPPORT ))
+	IE FIX: Bug report now works
+	IE FIX: Javascript fixes
+	IE FIX: Transparent PNG Fix for IE 6 and older
+	Improved GUI: Icons and small pictures in 'thumbnail' mode fixed.
+	Improved GUI: New login screen
+	New Function: File MD5
+	New Function: Show / Hide system files
+	New Function: Create ZIP Archives
+	Source: Improved Comments
+	
+v0.50
+	Fixed: GUI errors
+	Fixed: Thumbnail .png error
+	Improved GUI: Removed Enter Submit (no more buggy UI)
+	New Function: Download file
+	Source: Cleanup
+	Theme update: New button style
+	
+// BETA 1 STAGE //
+// ALPHA 2 END //
+	
+v0.40
+	New Function: Add users
+	New Function: Delete users
+	New Function: Update users
+	New Function: Multiple users
+v0.38
+	Fixed: File CHMOD
+	Fixed: Cut function
+	New error system
+
+v0.37:
+	Fixed: Install Bug
+	Improved GUI: User Control
+	New Function: Bug Report
+
+v0.36:
+	Improved GUI: New Logo
+	New Function: Easy CHMOD ( Readonly )
+	Fixed: Back Icon
+
+v0.35:
+	New Function: SQL Query Sender with SQL syntax coloring
+	New Function: Theme Selector
+	Improved GUI: New Smaller Header
+	
+v0.32:
+	New Function: CHMOD
+	New Function: Fenile Installation
+	Improved Security: Password Protected Fenile and Session Login
+	
+v0.31:
+
+	Fixed: Thumbnail Picture Size Problems
+	Fixed: CurrentDir Function Bug
+	Improved GUI: Selected Files Coloring
+	Improved GUI: New "go back" button
+	New Function: Cut, Copy, Paste function
+
+v0.30:
+	Improved GUI: Tabbed Panel	
+	Improved GUI: Icons In Panel
+	Fixed: file_put_contents() function in PHP4
+	Fixed: Source View Problems
+	
+// ALPHA 2 STAGE //	
+// ALPHA 1 END //

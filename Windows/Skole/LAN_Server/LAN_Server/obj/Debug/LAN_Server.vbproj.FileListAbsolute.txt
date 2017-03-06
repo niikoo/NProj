@@ -1,0 +1,18 @@
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Server\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Server\obj\Debug\LAN_Server.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Server\obj\Debug\LAN_Server.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Server\bin\Debug\LAN_Server.exe
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Server\bin\Debug\LAN_Server.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Server\bin\Debug\LAN_Server.xml
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Server\obj\Debug\LAN_Server.exe
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Server\obj\Debug\LAN_Server.xml
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Server\obj\Debug\LAN_Server.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server\LAN_Server\obj\Debug\LAN_Server.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server\LAN_Server\obj\Debug\LAN_Server.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server\LAN_Server\obj\Debug\LAN_Server.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server\LAN_Server\bin\Debug\LAN_Server.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server\LAN_Server\bin\Debug\LAN_Server.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server\LAN_Server\bin\Debug\LAN_Server.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server\LAN_Server\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server\LAN_Server\obj\Debug\LAN_Server.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Server\LAN_Server\obj\Debug\LAN_Server.vbproj.GenerateResource.Cache

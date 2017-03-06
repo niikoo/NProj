@@ -1,0 +1,98 @@
+/*-----------------------------------------/*
+
+DOKUMENTASJON - IRIS GLOW SCRIPT
+Til bruk i forbindelse med IRIS-Service
+av nom1 @ IRIS
+
+/*-----------------------------------------*/
+
+/*
+
+FIRST LINE CONTENT
+
+*/
+
+
+# WHEN TO RUN? #
+
+[LOGON]
+Run on user logon
+[LOGOFF]
+Run on user logoff
+[LOCK]
+Run on workstation lock
+[UNLOCK]
+Run on workstation unlock
+[START]
+Run on service start
+[NETWORKCHANGE]
+Run on network change
+
+-defaults to [LOGON]
+
+
+# SCRIPTING LANGUANGES #
+
+{VBS}
+
+-defaults to 'VBS' (onIRISNetwork given as variable in vbs)
+
+# RUN AS #
+
+(USER)
+Run as User (network access as user)
+(SERVICE)
+Run as Service ('Local System' Account - no network access)
+
+-defaults to (USER)
+
+/*
+
+EXAMPLES
+
+*/
+
+Run VBS Script as User on LOGON:
+[LOGON]{VBS}(USER)
+Run VBS Script as Service at logon and unlock:
+[LOGON][UNLOCK]{VBS}(SERVICE)
+
+
+/*-----------------------------------------/*
+
+DOKUMENTASJON - IRIS SERVICE CONFIGURATION
+av nom1 @ IRIS
+
+/*-----------------------------------------*/
+
+# appLimiter.conf #
+	|
+	|
+Desc	| This is a list with applications to kill in a period of the day
+	X
+Config	| One line is one application, syntax:
+	| [APPLICATION FILENAME WITHOUT .EXE ENDING];[START KILL TIME (HH:MM format)]:[END KILL TIME (HH:MM format)];[{optional}EXCLUSION LIST (comma seperated<,>) -> COMPUTERS TO EXCLUDE FROM THIS Kill-Rule (use computer names, not IPs)]
+	|	Use start 00:00 and end 24:00 to always kill an application
+	|	You can use # at the beginning of a new line to create a comment.
+	|
+	| Example configs:
+	|  > Kill calc.exe between 15:00 and 07:20
+	|	calc;15:00;07:20
+	|  > Always kill excel
+	|	excel;00:00;24:00
+	|  > Kill notepad between 07:40 and 17:30 on all computers without P2344 and P2400
+	|	notepad;07:40;17:30;P2344,P2400
+	X
+
+# noIRISProxy.conf #
+	|
+Desc	| This is a list of computers where the proxy settings won't be set
+	X
+Config	| One line is one computer, syntax:
+	| [COMPUTER NAME]
+	|
+	| Example config:
+	|  > P2344 AND SVG-FIL1 should not have proxy
+	|	P2344
+	|	SVG-FIL1
+	X

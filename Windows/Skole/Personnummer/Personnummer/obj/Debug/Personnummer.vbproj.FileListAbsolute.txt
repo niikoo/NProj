@@ -1,0 +1,10 @@
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Personnummer\Personnummer\bin\Debug\Personnummer.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Personnummer\Personnummer\bin\Debug\Personnummer.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Personnummer\Personnummer\bin\Debug\Personnummer.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Personnummer\Personnummer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Personnummer\Personnummer\obj\Debug\Personnummer.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Personnummer\Personnummer\obj\Debug\Personnummer.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Personnummer\Personnummer\obj\Debug\Personnummer.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Personnummer\Personnummer\obj\Debug\Personnummer.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Personnummer\Personnummer\obj\Debug\Personnummer.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Personnummer\Personnummer\obj\Debug\Personnummer.pdb

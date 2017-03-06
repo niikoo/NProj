@@ -1,0 +1,3 @@
+SERVER;;NUMBER1,NUMBER2, ... [COMMA SEPARATED CELLPHONE NUMBERS] - SERVER SMS NOTIFICATION SYSTEM - CUSTOM MESSAGE TO SEND ON LINE 2 - VARIABLES: {!SERVER!} = Server down, {!LAST!} = Date of last response
+Serveren {!SERVER!} er nede, siste respons: {!LAST!}
+localhost;;40043718

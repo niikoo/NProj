@@ -1,0 +1,10 @@
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET\Terning .NET\bin\Debug\Terning .NET.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET\Terning .NET\bin\Debug\Terning .NET.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET\Terning .NET\bin\Debug\Terning .NET.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET\Terning .NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET\Terning .NET\obj\Debug\Terning .NET.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET\Terning .NET\obj\Debug\Terning .NET.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET\Terning .NET\obj\Debug\Terning .NET.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET\Terning .NET\obj\Debug\Terning .NET.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET\Terning .NET\obj\Debug\Terning.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET\Terning .NET\obj\Debug\Terning.Resources.resources

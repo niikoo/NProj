@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Projector Control</title>
+    <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="/lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">-->
+    <link href="/css/popup.css" rel="stylesheet">
+    <link rel="chrome-application-definition" href="manifest.json">
+  </head>
+  <body>
+    <div id="confirm" class="modal fade" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            Er du sikker på at du vil slå av projektoren? (Confirm shutdown)
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal" class="btn btn-danger" id="confirm-turnoff">Ja</button>
+            <button type="button" data-dismiss="modal" class="btn btn-default">Nei</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <p>
+        <div class="proj-status-holder">
+          <div class="alert alert-danger proj-show-off text-center" id="proj-status-off">
+            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>&nbsp;&nbsp;
+            Projektoren er slått av
+          </div>
+          <div class="alert alert-success proj-show-on proj-show-status-on text-center" id="proj-status-on">
+            <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>&nbsp;&nbsp;
+            Projektoren er slått på
+          </div>
+          <div class="alert alert-warning proj-show-turning-on text-center" id="proj-status-turning-on">
+            <span class="glyphicon glyphicon-road" aria-hidden="true"></span>&nbsp;&nbsp;
+            Projektoren starter opp
+          </div>
+          <div class="alert alert-info proj-show-mute-on text-center" id="proj-status-muted">
+            <span class="glyphicon glyphicon-stop" aria-hidden="true"></span>&nbsp;&nbsp;
+            Svart skjerm på
+          </div>
+          <div class="alert alert-info proj-show-freeze-on text-center" id="proj-status-frozen">
+            <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>&nbsp;&nbsp;
+            Viser frosset bilde
+          </div>
+        </div>
+        <div class="well" id="proj-controlbtn-holder">
+          <p>
+            <button type="button" class="btn btn-success btn-block proj-show-off" id="proj-btn-on" PPKGcmd="on"
+             x-data-toggle="tooltip" data-placement="top" title="Slår på projektoren. NB! Det kan ta et par minutter.">
+              <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> 
+              Slå på projektor (turn on)
+            </button>
+            <button type="button" class="btn btn-danger btn-block proj-show-on" id="proj-btn-off" PPKGcmd="off"
+               x-data-toggle="tooltip" data-placement="top" title="Klikk her for å slå projektoren helt av.">
+              <span class="glyphicon glyphicon-off" aria-hidden="true"></span> 
+              Slå av projektor (turn off)
+            </button>
+          </p>
+          <p class="proj-show-muted">
+            <button type="button" class="btn btn-info btn-block proj-show-on proj-show-mute-off" id="proj-btn-mute-on" PPKGcmd="mute"
+             x-data-toggle="tooltip" data-placement="top" title="Projektoren viser bare en svart skjerm (Hurtigtast: Alt-M)">
+              <span class="glyphicon glyphicon-stop" aria-hidden="true"></span> 
+              Skjul bildet (mute)
+            </button>
+            <button type="button" class="btn btn-primary btn-block proj-show-on proj-show-mute-on" id="proj-btn-mute-off" PPKGcmd="mute"
+              x-data-toggle="tooltip" data-placement="top" title="Projektoren viser bildet i stedet for en svart skjerm (Hurtigtast: Alt-M)">
+              <span class="glyphicon glyphicon-play" aria-hidden="true"></span> 
+              Vis bilde igjen (unmute)
+            </button>
+          </p>
+          <p class="proj-show-frozen">
+            <button type="button" class="btn btn-info btn-block proj-show-on proj-show-freeze-off" id="proj-btn-freeze-on" PPKGcmd="freeze"
+              x-data-toggle="tooltip" data-placement="top" title="Gjør at det som vises på projektoren blir som et stillbilde (Hurtigtast: Alt-N)">
+              <span class="glyphicon glyphicon-pause" aria-hidden="true"></span> 
+              Frys bildet (freeze)
+            </button>
+            <button type="button" class="btn btn-primary btn-block proj-show-on proj-show-freeze-on" id="proj-btn-freeze-off" PPKGcmd="freeze"
+             x-data-toggle="tooltip" data-placement="top" title="Gjør at bildet på projektoren beveger seg igjen (Hurtigtast: Alt-N)">
+              <span class="glyphicon glyphicon-play" aria-hidden="true"></span> 
+              Slutt å fryse bildet (unfreeze)
+            </button>
+          </p>
+        </div>
+      </p>
+    </div>
+    <script src="/lib/jquery-2.1.4.min.js"></script>
+    <script src="/js/popup.js"></script>
+    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

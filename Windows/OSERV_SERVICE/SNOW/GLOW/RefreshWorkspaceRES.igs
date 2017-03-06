@@ -1,0 +1,6 @@
+[NETWORKCHANGE]{VBS}(USER)
+' Run a command as if you were running from the command line
+dim objShell
+Set objShell = WScript.CreateObject( "WScript.Shell" )
+objShell.Run("C:\PROGRA~2\RESSOF~1\WORKSP~1\pwrgate.exe -2")
+Set objShell = Nothing

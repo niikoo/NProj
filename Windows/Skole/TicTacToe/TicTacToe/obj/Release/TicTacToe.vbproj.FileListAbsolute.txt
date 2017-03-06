@@ -1,0 +1,10 @@
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TicTacToe\TicTacToe\bin\Release\TicTacToe.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TicTacToe\TicTacToe\bin\Release\TicTacToe.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TicTacToe\TicTacToe\bin\Release\TicTacToe.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TicTacToe\TicTacToe\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TicTacToe\TicTacToe\obj\Release\TicTacToe.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TicTacToe\TicTacToe\obj\Release\TicTacToe.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TicTacToe\TicTacToe\obj\Release\TicTacToe.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TicTacToe\TicTacToe\obj\Release\TicTacToe.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TicTacToe\TicTacToe\obj\Release\TicTacToe.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TicTacToe\TicTacToe\obj\Release\TicTacToe.pdb

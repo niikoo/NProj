@@ -1,0 +1,10 @@
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TextEditor\TextEditor\bin\Release\NNotepad.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TextEditor\TextEditor\bin\Release\NNotepad.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TextEditor\TextEditor\bin\Release\NNotepad.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TextEditor\TextEditor\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TextEditor\TextEditor\obj\Release\NNotepad.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TextEditor\TextEditor\obj\Release\NNotepad.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TextEditor\TextEditor\obj\Release\TextEditor.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TextEditor\TextEditor\obj\Release\NNotepad.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TextEditor\TextEditor\obj\Release\NNotepad.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\TextEditor\TextEditor\obj\Release\NNotepad.pdb

@@ -1,0 +1,10 @@
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terningkast\Terningkast\bin\Debug\Terningkast.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terningkast\Terningkast\bin\Debug\Terningkast.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terningkast\Terningkast\bin\Debug\Terningkast.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terningkast\Terningkast\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terningkast\Terningkast\obj\Debug\Terningkast.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terningkast\Terningkast\obj\Debug\Terningkast.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terningkast\Terningkast\obj\Debug\Terningkast.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terningkast\Terningkast\obj\Debug\Terningkast.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terningkast\Terningkast\obj\Debug\Terningkast.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terningkast\Terningkast\obj\Debug\Terningkast.pdb

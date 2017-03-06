@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title>CodePress - Online Real Time Syntax Highlighting Editor</title>
+
+	<style type="text/css">
+	@import url(styles.css);	
+	</style>
+	
+	<script type="text/javascript">
+	function getCode() {
+		alert(textWithoutHighlighting);
+	}
+	</script>
+</head>
+<body>
+<div id="container">
+
+<div id="logo">
+	<h1><a href="http://codepress.fermads.net/">CodePress</a></h1>
+	<h2>Online Real Time Syntax Highlighting Editor</h2>
+	<img src="testimage.gif" />
+</div>
+
+<h4>
+	CodePress is a code editor with syntax highlighting 
+	written in JavaScript that colors text in real time 
+	while it's being typed in the browser.
+</h4>
+
+<p>
+	Visit <a href="http://codepress.fermads.net/">codepress.fermads.net</a> for updates.
+</p>
+
+<h3>Demo</h3>
+<p>
+	Example shows syntax highlighting for <strong>Java</strong>, <strong>PHP</strong>, 
+	<strong>JavaScript</strong> and <strong>HTML</strong>. 
+	Other languages like PERL, Python, Ruby, C++ and C are on the way.
+</p>
+
+<div id="languages">
+	<em>choose language:</em> 
+	<button onclick="edit('codepress.php',this)" id="default">PHP</button> 
+	<button onclick="edit('FileManager.java',this)">Java</button> 
+	<button onclick="edit('index.html',this)">HTML</button> 
+	<button onclick="edit('codepress.js',this)">JavaScript</button> 
+	<button onclick="edit('loremipsum.txt',this)">plain text</button><br />
+</div>
+<iframe id="codepress" src="codepress.php?action=edit&file=codepress.php"></iframe><br />
+
+<textarea id="load-code">
+/* Hidden textarea */
+public static void main() {
+	System.out.println("Java text, loaded from textarea");
+}
+</textarea>
+
+<button onclick="getCode()"><strong>alert() code without highlighting</strong></button> :: Example of getting code from editor
+<button onclick="setCode()"><strong>set code to editor</strong></button> :: Example of setting code from somewhere to editor
+<br/><br/>
+
+<p>
+	CodePress is distributed under the <a href="http://www.opensource.org/licenses/lgpl-license.php">LGPL</a>. 
+	You can use it as you want. Just keep my credits somewhere around.
+</p>
+<p>
+Thanks.
+</p>
+
+<a href="mailto:fermads@gmail.com">Fernando M.A.d.S.</a>
+
+
+</div><!--/container-->
+</body>
+</html>

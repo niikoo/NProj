@@ -1,0 +1,22 @@
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Terning .NET v2.0\bin\Debug\Terning.NET_v2._0.exe
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Terning .NET v2.0\bin\Debug\Terning.NET_v2._0.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Terning .NET v2.0\bin\Debug\Terning.NET_v2._0.xml
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Terning .NET v2.0\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Terning .NET v2.0\obj\Debug\Terning.NET_v2._0.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Terning .NET v2.0\obj\Debug\Terning.NET_v2._0.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Terning .NET v2.0\obj\Debug\Terning .NET v2.0.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Terning .NET v2.0\obj\Debug\Terning.NET_v2._0.exe
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Terning .NET v2.0\obj\Debug\Terning.NET_v2._0.xml
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Terning .NET v2.0\obj\Debug\Terning.NET_v2._0.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Terning .NET v2.0\obj\Debug\Terning.NET_v2._0.Loading.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET v2.0\Terning .NET v2.0\bin\Debug\Terning .NET v2.0.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET v2.0\Terning .NET v2.0\bin\Debug\Terning .NET v2.0.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET v2.0\Terning .NET v2.0\bin\Debug\Terning .NET v2.0.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET v2.0\Terning .NET v2.0\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET v2.0\Terning .NET v2.0\obj\Debug\Terning.NET_v2._0.Loading.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET v2.0\Terning .NET v2.0\obj\Debug\Terning.NET_v2._0.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET v2.0\Terning .NET v2.0\obj\Debug\Terning.NET_v2._0.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET v2.0\Terning .NET v2.0\obj\Debug\Terning .NET v2.0.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET v2.0\Terning .NET v2.0\obj\Debug\Terning .NET v2.0.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET v2.0\Terning .NET v2.0\obj\Debug\Terning .NET v2.0.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Terning .NET v2.0\Terning .NET v2.0\obj\Debug\Terning .NET v2.0.pdb

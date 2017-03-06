@@ -1,0 +1,5 @@
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\WindowsService\bin\Debug\WindowsService.exe
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\WindowsService\bin\Debug\WindowsService.pdb
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\WindowsService\obj\Debug\WindowsService.csprojResolveAssemblyReference.cache
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\WindowsService\obj\Debug\WindowsService.exe
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\WindowsService\obj\Debug\WindowsService.pdb

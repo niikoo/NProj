@@ -1,0 +1,13 @@
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Bensinforbruk\bin\Debug\Bensinforbruk.exe
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Bensinforbruk\bin\Debug\Bensinforbruk.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Bensinforbruk\bin\Debug\Bensinforbruk.xml
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Bensinforbruk\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Bensinforbruk\obj\Debug\Bensinforbruk.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Bensinforbruk\obj\Debug\Bensinforbruk.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Bensinforbruk\obj\Debug\Bensinforbruk.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Bensinforbruk\obj\Debug\Bensinforbruk.exe
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Bensinforbruk\obj\Debug\Bensinforbruk.xml
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Bensinforbruk\obj\Debug\Bensinforbruk.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Bensinforbruk\Bensinforbruk\obj\Debug\Bensinforbruk.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Bensinforbruk\Bensinforbruk\obj\Debug\Bensinforbruk.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Bensinforbruk\Bensinforbruk\obj\Debug\Bensinforbruk.pdb

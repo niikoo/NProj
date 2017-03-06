@@ -1,0 +1,10 @@
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Timelønn\bin\Debug\Timelønn.exe
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Timelønn\bin\Debug\Timelønn.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Timelønn\bin\Debug\Timelønn.xml
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Timelønn\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Timelønn\obj\Debug\Timelønn.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Timelønn\obj\Debug\Timelønn.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Timelønn\obj\Debug\Timelønn.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Timelønn\obj\Debug\Timelønn.exe
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Timelønn\obj\Debug\Timelønn.xml
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\Timelønn\obj\Debug\Timelønn.pdb

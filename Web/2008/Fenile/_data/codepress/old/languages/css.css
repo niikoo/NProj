@@ -1,0 +1,10 @@
+/*
+ * CodePress color styles for CSS syntax highlighting
+ */
+
+b, b a, b u {color:#FF00FF;} /* tags, ids, classes */
+i, i b, i s, i a, i u {color:#FF9900;} /* comments */
+s, s b {color:#a0a0dd;} /* parameters */
+a {color:#000099;} /* keys */
+u {color:0000FF;} /* values */
+

@@ -1,0 +1,9 @@
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client\LAN_Client\bin\Debug\LAN_Client.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client\LAN_Client\bin\Debug\LAN_Client.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client\LAN_Client\bin\Debug\LAN_Client.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client\LAN_Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client\LAN_Client\obj\Debug\ConsoleApplication1.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client\LAN_Client\obj\Debug\LAN_Client.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client\LAN_Client\obj\Debug\LAN_Client.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client\LAN_Client\obj\Debug\LAN_Client.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client\LAN_Client\obj\Debug\LAN_Client.pdb

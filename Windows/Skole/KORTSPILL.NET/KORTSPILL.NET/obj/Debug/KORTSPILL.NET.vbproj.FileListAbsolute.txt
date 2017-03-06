@@ -1,0 +1,10 @@
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\KORTSPILL.NET\KORTSPILL.NET\bin\Debug\KORTSPILL.NET.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\KORTSPILL.NET\KORTSPILL.NET\bin\Debug\KORTSPILL.NET.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\KORTSPILL.NET\KORTSPILL.NET\bin\Debug\KORTSPILL.NET.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\KORTSPILL.NET\KORTSPILL.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\KORTSPILL.NET\KORTSPILL.NET\obj\Debug\WindowsApplication1.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\KORTSPILL.NET\KORTSPILL.NET\obj\Debug\WindowsApplication1.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\KORTSPILL.NET\KORTSPILL.NET\obj\Debug\KORTSPILL.NET.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\KORTSPILL.NET\KORTSPILL.NET\obj\Debug\KORTSPILL.NET.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\KORTSPILL.NET\KORTSPILL.NET\obj\Debug\KORTSPILL.NET.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\KORTSPILL.NET\KORTSPILL.NET\obj\Debug\KORTSPILL.NET.pdb

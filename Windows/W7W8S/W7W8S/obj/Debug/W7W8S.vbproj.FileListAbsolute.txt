@@ -1,0 +1,10 @@
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\W7W8S\bin\Debug\W7W8S.exe.config
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\W7W8S\obj\Debug\W7W8S.Form1.resources
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\W7W8S\obj\Debug\W7W8S.Resources.resources
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\W7W8S\obj\Debug\W7W8S.vbproj.GenerateResource.Cache
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\W7W8S\bin\Debug\W7W8S.exe
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\W7W8S\bin\Debug\W7W8S.pdb
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\W7W8S\bin\Debug\W7W8S.xml
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\W7W8S\obj\Debug\W7W8S.exe
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\W7W8S\obj\Debug\W7W8S.xml
+C:\Users\niikoo\Documents\Visual Studio 2012\Projects\W7W8S\W7W8S\obj\Debug\W7W8S.pdb

@@ -1,0 +1,20 @@
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Client_GUI\bin\Debug\LAN_Client_GUI.exe
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Client_GUI\bin\Debug\LAN_Client_GUI.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Client_GUI\bin\Debug\LAN_Client_GUI.xml
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Client_GUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Client_GUI\obj\Debug\LAN_Client_GUI.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Client_GUI\obj\Debug\LAN_Client_GUI.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Client_GUI\obj\Debug\LAN_Client_GUI.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Client_GUI\obj\Debug\LAN_Client_GUI.exe
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Client_GUI\obj\Debug\LAN_Client_GUI.xml
+C:\Documents and Settings\Nikolai Ommundsen\Lokale innstillinger\Programdata\Temporary Projects\LAN_Client_GUI\obj\Debug\LAN_Client_GUI.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client_GUI\LAN_Client_GUI\obj\Debug\LAN_Client_GUI.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client_GUI\LAN_Client_GUI\obj\Debug\LAN_Client_GUI.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client_GUI\LAN_Client_GUI\obj\Debug\LAN_Client_GUI.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client_GUI\LAN_Client_GUI\bin\Debug\LAN_Client_GUI.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client_GUI\LAN_Client_GUI\bin\Debug\LAN_Client_GUI.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client_GUI\LAN_Client_GUI\bin\Debug\LAN_Client_GUI.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client_GUI\LAN_Client_GUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client_GUI\LAN_Client_GUI\obj\Debug\LAN_Client_GUI.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client_GUI\LAN_Client_GUI\obj\Debug\LAN_Client_GUI.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\LAN_Client_GUI\LAN_Client_GUI\obj\Debug\LAN_Client_GUI.vbproj.GenerateResource.Cache

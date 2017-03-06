@@ -1,0 +1,2032 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AsproHook</name>
+    </assembly>
+    <members>
+        <member name="T:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardHook">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.WindowsHook">
+            <summary>
+            The base class for all the Hooks.
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.WindowsHook.SetHook">
+            <summary>
+            Starts the hook.
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.WindowsHook.RemoveHook">
+            <summary>
+            Removes the hook (internally this just calls Dispose()).
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.WindowsHook.Dispose">
+            <summary>
+            Removes the hook and frees all unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardHook.CreateHook">
+            <summary>
+            Creates the hook.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardHook.CreateHook(Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardHook.KeyEventQueued">
+            <summary>
+            Occurs when [key event queued].
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.CBT.WindowRectChangingEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.CBT.CBTEventArgs">
+            <summary>
+            Base class for all CBT hook event arguments.
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.HookEventArgs">
+            <summary>
+            Base class for the arguments returned in all hook events
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.HookEventArgs.ThreadID">
+            <summary>
+            Gets the ID for the thread that the hook event occurred on.
+            </summary>
+            <value>The native thread ID.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.HookEventArgs.DataAltered">
+            <summary>
+            Gets or sets a value indicating whether the data provided in the event 
+            arguments has been altered.
+            </summary>
+            <value><c>true</c> if the data has been altered; otherwise, 
+            <c>false</c>.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.HookEventArgs.Cancel">
+            <summary>
+            Gets or sets a value indicating whether further processing of this 
+            message should be cancelled.
+            </summary>
+            <value><c>true</c> if processing should be cancelled; otherwise, 
+            <c>false</c>.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.CBTEventArgs.WindowHandle">
+            <summary>
+            Gets the handle of the window affected.
+            </summary>
+            <value>The affected window's handle.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.WindowRectChangingEventArgs.NewRect">
+            <summary>
+            Gets or sets the new rect.
+            </summary>
+            <value>The new rect.</value>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.CBT.WindowCreatedEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.WindowCreatedEventArgs.CreationParameters">
+            <summary>
+            Gets the creation parameters.
+            </summary>
+            <value>The creation parameters.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.WindowCreatedEventArgs.InstanceHandle">
+            <summary>
+            Gets the instance handle.
+            </summary>
+            <value>The instance handle.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.WindowCreatedEventArgs.MenuHandle">
+            <summary>
+            Gets the menu handle.
+            </summary>
+            <value>The menu handle.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.WindowCreatedEventArgs.Parent">
+            <summary>
+            Gets the parent.
+            </summary>
+            <value>The parent.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.WindowCreatedEventArgs.WindowStyle">
+            <summary>
+            Gets the window style.
+            </summary>
+            <value>The window style.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.WindowCreatedEventArgs.ExtendedWindowStyle">
+            <summary>
+            Gets the extended window style.
+            </summary>
+            <value>The extended window style.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.WindowCreatedEventArgs.WindowName">
+            <summary>
+            Gets the name of the window.
+            </summary>
+            <value>The name of the window.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.WindowCreatedEventArgs.ClassName">
+            <summary>
+            Gets the name of the class.
+            </summary>
+            <value>The name of the class.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.WindowCreatedEventArgs.WindowRect">
+            <summary>
+            Gets or sets the window rect.
+            </summary>
+            <value>The window rect.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.WindowCreatedEventArgs.InsertAfterHwnd">
+            <summary>
+            Gets or sets the insert after HWND.
+            </summary>
+            <value>The insert after HWND.</value>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Mouse.MouseEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Mouse.MouseEventArgs.IsPeek">
+            <summary>
+            Gets or sets a value indicating whether this instance is peek.
+            </summary>
+            <value><c>true</c> if this instance is peek; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Mouse.MouseEventArgs.Event">
+            <summary>
+            Gets or sets the event.
+            </summary>
+            <value>The event.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Mouse.MouseEventArgs.WindowHandle">
+            <summary>
+            Gets or sets the window handle.
+            </summary>
+            <value>The window handle.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Mouse.MouseEventArgs.X">
+            <summary>
+            Gets or sets the X.
+            </summary>
+            <value>The X.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Mouse.MouseEventArgs.Y">
+            <summary>
+            Gets or sets the Y.
+            </summary>
+            <value>The Y.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Mouse.MouseEventArgs.HitTestCode">
+            <summary>
+            Gets or sets the hit test code.
+            </summary>
+            <value>The hit test code.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Mouse.MouseEventArgs.ExtraInfo">
+            <summary>
+            Gets or sets the extra info.
+            </summary>
+            <value>The extra info.</value>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Mouse.HitTestCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Error">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Transparent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Nowhere">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Client">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Caption">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.SysMenu">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.GrowBox">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Size">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Menu">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.HScroll">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.VScroll">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.MinButton">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.MaxButton">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Left">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Right">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Top">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.TopLeft">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.TopRight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Bottom">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.BottomLeft">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.BottomRight">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Border">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Reduce">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Zoom">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.SizeFirst">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.SizeLast">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Object">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Close">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.HitTestCode.Help">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Message.MessageFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Message.MessageFilter.CreateHook">
+            <summary>
+            Creates the hook.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Message.MessageFilter.CreateHook(Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Message.MessageFilter.CreateHook(System.Int32)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Message.MessageFilter.CreateHook(System.Int32,Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Message.MessageFilter.MessageArrived">
+            <summary>
+            Occurs when [message arrived].
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Shell.ShellHookCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.WindowCreated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.WindowDestroyed">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.ActivateShellWindow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.WindowActivated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.GetMinRect">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.Redraw">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.TaskMan">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.Language">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.SysMenu">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.EndTask">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.AccessibilityState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.AppCommand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.WindowReplaced">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.WindowReplacing">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.Flash">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookCode.RudeActivated">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.WindowProcedure.CallWndProcRetHook">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.WindowProcedure.CallWndProcRetHook.CreateHook">
+            <summary>
+            Creates the hook.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.WindowProcedure.CallWndProcRetHook.CreateHook(Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.WindowProcedure.CallWndProcRetHook.CreateHook(System.Int32)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.WindowProcedure.CallWndProcRetHook.CreateHook(System.Int32,Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.WindowProcedure.CallWndProcRetHook.WndProcReturned">
+            <summary>
+            Occurs when [WND proc returned].
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.ShellHookWindow.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Shell.ShellHookWindow.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Shell.ShellHookWindow.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Mouse.MouseEvent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.MouseMove">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.LeftButtonDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.LeftButtonUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.LeftButtonDblClk">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.RightButtonDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.RightButtonUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.RightButtonDblClk">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.MiddleButtonDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.MiddleButtonUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.MiddleButtonDblClk">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.MouseWheel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.XButtonDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.XButtonUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.XButtonDblClk">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Mouse.MouseEvent.MouseHWheel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Keyboard.KeyboardHook">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Keyboard.KeyboardHook.CreateHook">
+            <summary>
+            Creates the hook.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Keyboard.KeyboardHook.CreateHook(Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Keyboard.KeyboardHook.CreateHook(System.Int32)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Keyboard.KeyboardHook.CreateHook(System.Int32,Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Keyboard.KeyboardHook.KeyEventTriggered">
+            <summary>
+            Occurs when [key event triggered].
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Message.SystemMessageFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Message.SystemMessageFilter.CreateHook">
+            <summary>
+            Creates the hook.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Message.SystemMessageFilter.CreateHook(Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Message.SystemMessageFilter.CreateHook(System.Int32)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Message.SystemMessageFilter.CreateHook(System.Int32,Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Message.SystemMessageFilter.MessageArrived">
+            <summary>
+            Occurs when [message arrived].
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardEventArgs.KeyCode">
+            <summary>
+            Gets or sets the key code.
+            </summary>
+            <value>The key code.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardEventArgs.ScanCode">
+            <summary>
+            Gets or sets the scan code.
+            </summary>
+            <value>The scan code.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardEventArgs.IsExtendedKey">
+            <summary>
+            Gets or sets a value indicating whether this instance is extended key.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is extended key; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardEventArgs.IsAltDown">
+            <summary>
+            Gets or sets a value indicating whether this instance is alt down.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is alt down; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardEventArgs.IsKeyUp">
+            <summary>
+            Gets or sets a value indicating whether this instance is key up.
+            </summary>
+            <value><c>true</c> if this instance is key up; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardEventArgs.IsInjected">
+            <summary>
+            Gets or sets a value indicating whether this instance is injected.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is injected; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardEventArgs.Timestamp">
+            <summary>
+            Gets or sets the timestamp.
+            </summary>
+            <value>The timestamp.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardEventArgs.IsCtrlDown">
+            <summary>
+            Gets a value indicating whether this instance is CTRL down.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is CTRL down; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardEventArgs.IsShiftDown">
+            <summary>
+            Gets a value indicating whether this instance is shift down.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is shift down; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardEventArgs.IsLWinDown">
+            <summary>
+            Gets a value indicating whether this instance is L win down.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is L win down; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardEventArgs.IsRWinDown">
+            <summary>
+            Gets a value indicating whether this instance is R win down.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is R win down; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardEventArgs.IsCapsLockOn">
+            <summary>
+            Gets a value indicating whether this instance is caps lock on.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is caps lock on; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.LowLevelKeyboardEventArgs.IsNumLockOn">
+            <summary>
+            Gets a value indicating whether this instance is num lock on.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is num lock on; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Shell.AppCommandEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Shell.ShellEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Shell.ShellEventArgs.WindowHandle">
+            <summary>
+            Gets or sets the window handle.
+            </summary>
+            <value>The window handle.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Shell.ShellEventArgs.ExtraInfo">
+            <summary>
+            Gets or sets the extra info.
+            </summary>
+            <value>The extra info.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Shell.ShellEventArgs.EventCode">
+            <summary>
+            Gets or sets the event code.
+            </summary>
+            <value>The event code.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Shell.AppCommandEventArgs.Command">
+            <summary>
+            Gets or sets the command.
+            </summary>
+            <value>The command.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Shell.AppCommandEventArgs.Device">
+            <summary>
+            Gets or sets the device.
+            </summary>
+            <value>The device.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Shell.AppCommandEventArgs.Flags">
+            <summary>
+            Gets or sets the flags.
+            </summary>
+            <value>The flags.</value>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Shell.AppCommandDevice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommandDevice.Key">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommandDevice.Mouse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommandDevice.Unknown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Message.MessageFilterEvent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Message.MessageFilterEvent.DialogBox">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Message.MessageFilterEvent.MessageBox">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Message.MessageFilterEvent.Menu">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Message.MessageFilterEvent.ScrollBar">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Message.MessageFilterEvent.DDE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Keyboard.KeyboardEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.KeyboardEventArgs.KeyCode">
+            <summary>
+            Gets or sets the key code.
+            </summary>
+            <value>The key code.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.KeyboardEventArgs.ScanCode">
+            <summary>
+            Gets or sets the scan code.
+            </summary>
+            <value>The scan code.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.KeyboardEventArgs.RepeatCount">
+            <summary>
+            Gets or sets the repeat count.
+            </summary>
+            <value>The repeat count.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.KeyboardEventArgs.IsPeek">
+            <summary>
+            Gets or sets a value indicating whether this instance is peek.
+            </summary>
+            <value><c>true</c> if this instance is peek; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.KeyboardEventArgs.IsExtendedKey">
+            <summary>
+            Gets or sets a value indicating whether this instance is extended key.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is extended key; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.KeyboardEventArgs.IsAltDown">
+            <summary>
+            Gets or sets a value indicating whether this instance is alt down.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is alt down; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.KeyboardEventArgs.IsKeyUp">
+            <summary>
+            Gets or sets a value indicating whether this instance is key up.
+            </summary>
+            <value><c>true</c> if this instance is key up; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.KeyboardEventArgs.IsCtrlDown">
+            <summary>
+            Gets a value indicating whether this instance is CTRL down.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is CTRL down; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.KeyboardEventArgs.IsShiftDown">
+            <summary>
+            Gets a value indicating whether this instance is shift down.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is shift down; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.KeyboardEventArgs.IsLWinDown">
+            <summary>
+            Gets a value indicating whether this instance is L win down.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is L win down; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.KeyboardEventArgs.IsSRWinDown">
+            <summary>
+            Gets a value indicating whether this instance is SR win down.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is SR win down; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.KeyboardEventArgs.IsCapsLockOn">
+            <summary>
+            Gets a value indicating whether this instance is caps lock on.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is caps lock on; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Keyboard.KeyboardEventArgs.IsNumLockOn">
+            <summary>
+            Gets a value indicating whether this instance is num lock on.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is num lock on; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Shell.ShellHook.CreateHook">
+            <summary>
+            Creates the hook.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Shell.ShellHook.CreateHook(Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Shell.ShellHook.CreateHook(System.Int32)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Shell.ShellHook.CreateHook(System.Int32,Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Shell.ShellHook.AccessibilityStateChanged">
+            <summary>
+            Occurs when [accessibility state changed].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Shell.ShellHook.AppCommand">
+            <summary>
+            Occurs when [app command].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Shell.ShellHook.WindowActivated">
+            <summary>
+            Occurs when [window activated].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Shell.ShellHook.WindowCreated">
+            <summary>
+            Occurs when [window created].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Shell.ShellHook.WindowRedrawn">
+            <summary>
+            Occurs when [window redrawn].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Shell.ShellHook.WindowReplaced">
+            <summary>
+            Occurs when [window replaced].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Shell.ShellHook.WindowDestroyed">
+            <summary>
+            Occurs when [window destroyed].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Shell.ShellHook.GetWindowMinRect">
+            <summary>
+            Occurs when [get window min rect].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Shell.ShellHook.InputLanguageChanged">
+            <summary>
+            Occurs when [input language changed].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Shell.ShellHook.TaskManInvoked">
+            <summary>
+            Occurs when [task man invoked].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Shell.ShellHook.ShellWindowActivate">
+            <summary>
+            Occurs when [shell window activate].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Shell.ShellHook.EndTaskInvoked">
+            <summary>
+            Occurs when [end task invoked].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Shell.ShellHook.WindowReplacing">
+            <summary>
+            Occurs when [window replacing].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Shell.ShellHook.WindowRudeActivated">
+            <summary>
+            Occurs when [window rude activated].
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Message.MessageArrivedEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Message.MessageArrivedEventArgs.IsPeek">
+            <summary>
+            Gets or sets a value indicating whether this instance is peek.
+            </summary>
+            <value><c>true</c> if this instance is peek; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Message.MessageArrivedEventArgs.TargetWindow">
+            <summary>
+            Gets or sets the target window.
+            </summary>
+            <value>The target window.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Message.MessageArrivedEventArgs.MessageID">
+            <summary>
+            Gets or sets the message ID.
+            </summary>
+            <value>The message ID.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Message.MessageArrivedEventArgs.CursorPosition">
+            <summary>
+            Gets or sets the cursor position.
+            </summary>
+            <value>The cursor position.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Message.MessageArrivedEventArgs.MessageTime">
+            <summary>
+            Gets or sets the message time.
+            </summary>
+            <value>The message time.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Message.MessageArrivedEventArgs.wParam">
+            <summary>
+            Gets or sets the w param.
+            </summary>
+            <value>The w param.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Message.MessageArrivedEventArgs.lParam">
+            <summary>
+            Gets or sets the l param.
+            </summary>
+            <value>The l param.</value>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.CBT.SystemCommandEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.SystemCommandEventArgs.Command">
+            <summary>
+            Gets the command that was invoked.
+            </summary>
+            <value>The command that was invoked.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.SystemCommandEventArgs.ExtraInfo">
+            <summary>
+            Gets the extra info associated with the command.
+            </summary>
+            <value>Extra data that is associated with the command. 
+            This is command dependent and may be a null pointer.</value>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.CBT.FocusChangingEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.FocusChangingEventArgs.LosingFocusHwnd">
+            <summary> 
+            Gets the handle of the window losing focus.
+            </summary>
+            <value>The handle of the window losing focus.</value>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Shell.AppCommand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.BrowserBackward">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.BrowserForward">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.BrowserRefresh">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.BrowserStop">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.BrowserSearch">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.BrowserFavorites">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.BrowserHome">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.VolumeMute">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.VolumeDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.VolumeUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MediaNextTrack">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MediaPreviousTrack">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MediaStop">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MediaPlayPause">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.LaunchMail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.LaunchMediaSelect">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.LaunchApp1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.LaunchApp2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.BassDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.BassBoost">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.BassUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.TrebleDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.TrebleUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MicrophoneVolumeMute">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MicrophoneVolumeDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MicrophoneVolumeUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.Help">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.Find">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.New">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.Open">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.Close">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.Save">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.Print">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.Undo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.Redo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.Copy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.Cut">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.Paste">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.ReplyToMail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.ForwardMail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.SendMail">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.SpellCheck">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.DictateOrCommandControlToggle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MicOnOffToggle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.CorrectionList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MediaPlay">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MediaPause">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MediaRecord">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MediaFastForward">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MediaRewind">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MediaChannelUp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.MediaChannelDown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.Delete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AppCommand.DWMFlip3D">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Shell.AccessibilityStateChangedEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Shell.AccessibilityStateChangedEventArgs.ItemChanged">
+            <summary>
+            Gets or sets the item changed.
+            </summary>
+            <value>The item changed.</value>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Mouse.LowLevelMouseEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Mouse.LowLevelMouseEventArgs.Event">
+            <summary>
+            Gets or sets the event.
+            </summary>
+            <value>The event.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Mouse.LowLevelMouseEventArgs.X">
+            <summary>
+            Gets or sets the X.
+            </summary>
+            <value>The X.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Mouse.LowLevelMouseEventArgs.Y">
+            <summary>
+            Gets or sets the Y.
+            </summary>
+            <value>The Y.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Mouse.LowLevelMouseEventArgs.IsInjected">
+            <summary>
+            Gets or sets a value indicating whether this instance is injected.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is injected; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Mouse.LowLevelMouseEventArgs.MouseData">
+            <summary>
+            Gets or sets the mouse data.
+            </summary>
+            <value>The mouse data.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Mouse.LowLevelMouseEventArgs.Timestamp">
+            <summary>
+            Gets or sets the timestamp.
+            </summary>
+            <value>The timestamp.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Mouse.LowLevelMouseEventArgs.ExtraInfo">
+            <summary>
+            Gets or sets the extra info.
+            </summary>
+            <value>The extra info.</value>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Shell.AccessibilityItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AccessibilityItem.StickyKeys">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AccessibilityItem.FilterKeys">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.Shell.AccessibilityItem.MouseKeys">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.HookFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.HookFilter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Asprosys.Win32.Hooks.HookFilter"/> class.
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.HookFilter.Process">
+            <summary>
+            Gets or sets the ID of the process that will be monitored.
+            A value of zero indicates all processes.
+            </summary>
+            <value>The ID of the process to monitor.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.HookFilter.IsInclusionList">
+            <summary>
+            Gets or sets a value indicating whether this instance is an inclusion list.
+            </summary>
+            <value>
+            <c>true</c> if this instance is an inclusion list; otherwise, <c>false</c>.
+            </value>
+            <remarks>
+            <para>If the list is an exclusion list (the default) then all messages 
+            will be passed on except those in the list. The list can be empty.</para>
+            <para>If the list is an inclusion list then only messages in the list will
+            be passed on. Attemting to set an inclusion list with an empty filter
+            on a hook will cause an InvalidOperationException to be thrown.</para>
+            </remarks>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.HookFilter.FilterList">
+            <summary>
+            Gets the list of integer values to filter on.
+            </summary>
+            <value>The filter list.</value>
+            <remarks>
+            <para>The values that can be included in the list depend on the type of 
+            hook. See the specific hook you will be using for details.</para>
+            <para></para>
+            </remarks>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.ForegroundIdle.ForegroundIdleHook">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.ForegroundIdle.ForegroundIdleHook.CreateHook(System.Int32)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.ForegroundIdle.ForegroundIdleHook.CreateHook">
+            <summary>
+            Creates the hook.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.ForegroundIdle.ForegroundIdleHook.EnteringIdle">
+            <summary>
+            Occurs when [entering idle].
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.CBT.SystemCommand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.Size">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.Move">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.Minimize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.Maximize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.NextWindow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.PrevWindow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.Close">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.VScroll">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.HScroll">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.MouseMenu">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.KeyMenu">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.Arrange">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.Restore">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.TaskList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.ScreenSave">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.HotKey">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.Default">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.MonitorPower">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Asprosys.Win32.Hooks.CBT.SystemCommand.ContextHelp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Mouse.MouseHook">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Mouse.MouseHook.CreateHook">
+            <summary>
+            Creates the hook.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Mouse.MouseHook.CreateHook(Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Mouse.MouseHook.CreateHook(System.Int32)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Mouse.MouseHook.CreateHook(System.Int32,Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Mouse.MouseHook.MouseEventTriggered">
+            <summary>
+            Occurs when [mouse event triggered].
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.CBT.CBTHook">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.CBT.CBTHook.CreateHook">
+            <summary>
+            Creates the hook.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.CBT.CBTHook.CreateHook(Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.CBT.CBTHook.CreateHook(System.Int32)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.CBT.CBTHook.CreateHook(System.Int32,Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.CBT.CBTHook.WindowActivating">
+            <summary>
+            Occurs when [window activating].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.CBT.CBTHook.WindowCreated">
+            <summary>
+            Occurs when [window created].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.CBT.CBTHook.WindowDestroyed">
+            <summary>
+            Occurs when [window destroyed].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.CBT.CBTHook.WindowStateChanging">
+            <summary>
+            Occurs when [window state changing].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.CBT.CBTHook.WindowRectChanging">
+            <summary>
+            Occurs when [window rect changing].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.CBT.CBTHook.FocusChanging">
+            <summary>
+            Occurs when [focus changing].
+            </summary>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.CBT.CBTHook.SystemCommand">
+            <summary>
+            Occurs when [system command].
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.WindowProcedure.WndProcCalledEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.WindowProcedure.WndProcCalledEventArgs.TargetWindow">
+            <summary>
+            Gets or sets the target window.
+            </summary>
+            <value>The target window.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.WindowProcedure.WndProcCalledEventArgs.MessageID">
+            <summary>
+            Gets or sets the message ID.
+            </summary>
+            <value>The message ID.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.WindowProcedure.WndProcCalledEventArgs.wParam">
+            <summary>
+            Gets or sets the w param.
+            </summary>
+            <value>The w param.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.WindowProcedure.WndProcCalledEventArgs.lParam">
+            <summary>
+            Gets or sets the l param.
+            </summary>
+            <value>The l param.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.WindowProcedure.WndProcCalledEventArgs.FromCurrentThread">
+            <summary>
+            Gets or sets a value indicating whether [from current thread].
+            </summary>
+            <value><c>true</c> if [from current thread]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.WindowProcedure.WndProcReturnedEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.WindowProcedure.WndProcReturnedEventArgs.TargetWindow">
+            <summary>
+            Gets or sets the target window.
+            </summary>
+            <value>The target window.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.WindowProcedure.WndProcReturnedEventArgs.MessageID">
+            <summary>
+            Gets or sets the message ID.
+            </summary>
+            <value>The message ID.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.WindowProcedure.WndProcReturnedEventArgs.wParam">
+            <summary>
+            Gets or sets the w param.
+            </summary>
+            <value>The w param.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.WindowProcedure.WndProcReturnedEventArgs.lParam">
+            <summary>
+            Gets or sets the l param.
+            </summary>
+            <value>The l param.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.WindowProcedure.WndProcReturnedEventArgs.FromCurrentThread">
+            <summary>
+            Gets or sets a value indicating whether [from current thread].
+            </summary>
+            <value><c>true</c> if [from current thread]; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.WindowProcedure.WndProcReturnedEventArgs.ReturnValue">
+            <summary>
+            Gets or sets the return value.
+            </summary>
+            <value>The return value.</value>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.WindowProcedure.CallWndProcHook">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.WindowProcedure.CallWndProcHook.CreateHook">
+            <summary>
+            Creates the hook.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.WindowProcedure.CallWndProcHook.CreateHook(Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.WindowProcedure.CallWndProcHook.CreateHook(System.Int32)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.WindowProcedure.CallWndProcHook.CreateHook(System.Int32,Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.WindowProcedure.CallWndProcHook.WndProcCalled">
+            <summary>
+            Occurs when [WND proc called].
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Mouse.LowLevelMouseHook">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Mouse.LowLevelMouseHook.CreateHook">
+            <summary>
+            Creates the hook.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Mouse.LowLevelMouseHook.CreateHook(Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Mouse.LowLevelMouseHook.MouseEventQueued">
+            <summary>
+            Occurs when [mouse event queued].
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Message.MessageFilterEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.Message.MessageFilterEventArgs.EventCode">
+            <summary>
+            Gets or sets the event code.
+            </summary>
+            <value>The event code.</value>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.CBT.WindowActivatingEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.WindowActivatingEventArgs.CurrentActiveWindowHandle">
+            <summary>
+            Gets or sets the current active window handle.
+            </summary>
+            <value>The current active window handle.</value>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.WindowActivatingEventArgs.IsMouseActivation">
+            <summary>
+            Gets or sets a value indicating whether this instance is mouse activation.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is mouse activation; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Shell.ShellHookMsg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Shell.ShellHookMsg.CreateHook">
+            <summary>
+            Creates the hook.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Shell.ShellHookMsg.CreateHook(Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Shell.ShellHookMsg.SetHook">
+            <summary>
+            Starts the hook.
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.Message.GetMessageHook">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Message.GetMessageHook.CreateHook">
+            <summary>
+            Creates the hook.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Message.GetMessageHook.CreateHook(Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Message.GetMessageHook.CreateHook(System.Int32)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Asprosys.Win32.Hooks.Message.GetMessageHook.CreateHook(System.Int32,Asprosys.Win32.Hooks.HookFilter)">
+            <summary>
+            Creates the hook.
+            </summary>
+            <param name="threadID">The thread ID.</param>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="E:Asprosys.Win32.Hooks.Message.GetMessageHook.MessageArrived">
+            <summary>
+            Occurs when [message arrived].
+            </summary>
+        </member>
+        <member name="T:Asprosys.Win32.Hooks.CBT.WindowStateChangingEventArgs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Asprosys.Win32.Hooks.CBT.WindowStateChangingEventArgs.NewState">
+            <summary>
+            Gets or sets the new state.
+            </summary>
+            <value>The new state.</value>
+        </member>
+    </members>
+</doc>

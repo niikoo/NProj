@@ -1,0 +1,9 @@
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 16 - Rentesrente\Oppgave 16 - Rentesrente\bin\Debug\Oppgave 16 - Rentesrente.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 16 - Rentesrente\Oppgave 16 - Rentesrente\bin\Debug\Oppgave 16 - Rentesrente.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 16 - Rentesrente\Oppgave 16 - Rentesrente\bin\Debug\Oppgave 16 - Rentesrente.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 16 - Rentesrente\Oppgave 16 - Rentesrente\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 16 - Rentesrente\Oppgave 16 - Rentesrente\obj\Debug\ConsoleApplication1.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 16 - Rentesrente\Oppgave 16 - Rentesrente\obj\Debug\Oppgave 16 - Rentesrente.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 16 - Rentesrente\Oppgave 16 - Rentesrente\obj\Debug\Oppgave 16 - Rentesrente.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 16 - Rentesrente\Oppgave 16 - Rentesrente\obj\Debug\Oppgave 16 - Rentesrente.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Oppgave 16 - Rentesrente\Oppgave 16 - Rentesrente\obj\Debug\Oppgave 16 - Rentesrente.pdb

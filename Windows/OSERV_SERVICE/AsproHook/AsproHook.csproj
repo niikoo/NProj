@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8CBFDBA4-AB1D-4164-9DD4-6173F7A64866}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Asprosys.Win32</RootNamespace>
+    <AssemblyName>AsproHook</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Debug\AsproHook.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Release\AsproHook.XML</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>IRIS_KEYFILE.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Hooks\CBT\CBTCode.cs" />
+    <Compile Include="Hooks\CBT\CBTEventArgs.cs" />
+    <Compile Include="Hooks\CBT\CBTHook.cs" />
+    <Compile Include="Hooks\CBT\FocusChangingEventArgs.cs" />
+    <Compile Include="Hooks\CBT\SystemCommand.cs" />
+    <Compile Include="Hooks\CBT\SystemCommandEventArgs.cs" />
+    <Compile Include="Hooks\CBT\WindowActivatingEventArgs.cs" />
+    <Compile Include="Hooks\CBT\WindowCreatedEventArgs.cs" />
+    <Compile Include="Hooks\CBT\WindowRectChangingEventArgs.cs" />
+    <Compile Include="Hooks\CBT\WindowStateChangingEventArgs.cs" />
+    <Compile Include="Hooks\ForegroundIdle\ForegroundIdleHook.cs" />
+    <Compile Include="Hooks\HookEventArgs.cs" />
+    <Compile Include="Hooks\HookFilter.cs" />
+    <Compile Include="Hooks\HookType.cs" />
+    <Compile Include="Hooks\Keyboard\KeyboardHook.cs" />
+    <Compile Include="Hooks\Keyboard\KeyboardEventArgs.cs" />
+    <Compile Include="Hooks\Keyboard\LowLevelKeyboardEventArgs.cs" />
+    <Compile Include="Hooks\Keyboard\LowLevelKeyboardHook.cs" />
+    <Compile Include="Hooks\Message\GetMessageHook.cs" />
+    <Compile Include="Hooks\Message\MessageFilter.cs" />
+    <Compile Include="Hooks\Message\MessageFilterEvent.cs" />
+    <Compile Include="Hooks\Message\MessageFilterEventArgs.cs" />
+    <Compile Include="Hooks\Message\SystemMessageFilter.cs" />
+    <Compile Include="Hooks\Mouse\LowLevelMouseEventArgs.cs" />
+    <Compile Include="Hooks\Message\MessageArrivedEventArgs.cs" />
+    <Compile Include="Hooks\Message\MSG.cs" />
+    <Compile Include="Hooks\Mouse\HitTestCode.cs" />
+    <Compile Include="Hooks\Mouse\LowLevelMouseHook.cs" />
+    <Compile Include="Hooks\Mouse\MouseEvent.cs" />
+    <Compile Include="Hooks\Mouse\MouseEventArgs.cs" />
+    <Compile Include="Hooks\Mouse\MouseHook.cs" />
+    <Compile Include="Hooks\SafeHookHandle.cs" />
+    <Compile Include="Hooks\Shell\AccessibilityStateChangedEventArgs.cs" />
+    <Compile Include="Hooks\Shell\AccessibilityItem.cs" />
+    <Compile Include="Hooks\Shell\AppCommand.cs" />
+    <Compile Include="Hooks\Shell\AppCommandDevice.cs" />
+    <Compile Include="Hooks\Shell\AppCommandEventArgs.cs" />
+    <Compile Include="Hooks\Shell\ShellEventArgs.cs" />
+    <Compile Include="Hooks\Shell\ShellHook.cs" />
+    <Compile Include="Hooks\Shell\ShellHookCode.cs" />
+    <Compile Include="Hooks\Shell\ShellHookMsg.cs" />
+    <Compile Include="Hooks\Shell\ShellHookWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hooks\Shell\ShellHookWindow.Designer.cs">
+      <DependentUpon>ShellHookWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hooks\WindowProcedure\CallWndProcHook.cs" />
+    <Compile Include="Hooks\WindowProcedure\CallWndProcRetHook.cs" />
+    <Compile Include="Hooks\WindowProcedure\WndProcReturnedEventArgs.cs" />
+    <Compile Include="Hooks\WindowProcedure\WndProcCalledEventArgs.cs" />
+    <Compile Include="Hooks\WindowsHook.cs" />
+    <Compile Include="Native\NativeConstants.cs" />
+    <Compile Include="Native\NativeMethods.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Hooks\Shell\ShellHookWindow.resx">
+      <DependentUpon>ShellHookWindow.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Hooks\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IRIS_KEYFILE.pfx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

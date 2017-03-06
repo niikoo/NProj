@@ -1,0 +1,13 @@
+/*
+ * CodePress color styles for HTML syntax highlighting
+ */
+
+b {color:#009;} /* tags */
+ins, ins b, ins s, ins em {color:gray;} /* comments */
+s, s b {color:#00F;} /* attribute values */
+a {color:green;} /* links */
+u {color:#FF9900;} /* forms */
+big {color:#db0000;} /* images */
+em, em b {color:#FF00FF;} /* style */
+strong {color:#FF0000;} /* script */
+tt i {color:darkblue;font-weight:bold;} /* script reserved words */

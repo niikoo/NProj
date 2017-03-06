@@ -1,0 +1,10 @@
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Kron -  Mynt\Kron -  Mynt\bin\Debug\Kron -  Mynt.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Kron -  Mynt\Kron -  Mynt\bin\Debug\Kron -  Mynt.pdb
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Kron -  Mynt\Kron -  Mynt\bin\Debug\Kron -  Mynt.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Kron -  Mynt\Kron -  Mynt\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Kron -  Mynt\Kron -  Mynt\obj\Debug\Kron____Mynt.Form1.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Kron -  Mynt\Kron -  Mynt\obj\Debug\Kron____Mynt.Resources.resources
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Kron -  Mynt\Kron -  Mynt\obj\Debug\Kron -  Mynt.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Kron -  Mynt\Kron -  Mynt\obj\Debug\Kron -  Mynt.exe
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Kron -  Mynt\Kron -  Mynt\obj\Debug\Kron -  Mynt.xml
+C:\Documents and Settings\Nikolai Ommundsen\Mine dokumenter\Visual Studio 2008\Projects\Kron -  Mynt\Kron -  Mynt\obj\Debug\Kron -  Mynt.pdb

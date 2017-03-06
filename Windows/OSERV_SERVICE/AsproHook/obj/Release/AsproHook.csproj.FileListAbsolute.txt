@@ -1,0 +1,9 @@
+P:\SVG\821\Visual Basic\IRIS SERVICE\AsproHook\bin\Release\AsproHook.XML
+P:\SVG\821\Visual Basic\IRIS SERVICE\AsproHook\bin\Release\AsproHook.dll
+P:\SVG\821\Visual Basic\IRIS SERVICE\AsproHook\bin\Release\AsproHook.pdb
+P:\SVG\821\Visual Basic\IRIS SERVICE\AsproHook\obj\Release\ResolveAssemblyReference.cache
+P:\SVG\821\Visual Basic\IRIS SERVICE\AsproHook\obj\Release\Asprosys.Win32.Hooks.Shell.ShellHookWindow.resources
+P:\SVG\821\Visual Basic\IRIS SERVICE\AsproHook\obj\Release\ResGen.read.1.tlog
+P:\SVG\821\Visual Basic\IRIS SERVICE\AsproHook\obj\Release\ResGen.write.1.tlog
+P:\SVG\821\Visual Basic\IRIS SERVICE\AsproHook\obj\Release\AsproHook.dll
+P:\SVG\821\Visual Basic\IRIS SERVICE\AsproHook\obj\Release\AsproHook.pdb
